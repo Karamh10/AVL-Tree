@@ -8,9 +8,11 @@ AVL tree is a Binary Search Tree that is also known as a BST. The values and dat
 The complexity of searching, inserting, and deleting a node are O(log n) for an AVL Tree. 
 
 The "Social Security" files contain data that looks like this:
+```
 i 355589543    John Doe
 d 423594023    Jane Doe
 r 240934900    Regina Phalange
+```
 
 The program will first parse in the first letter of a line. If the letter is
   - i : That means the social security number and the name after it need to be inserted into the tree.
